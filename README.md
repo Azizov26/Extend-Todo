@@ -1,9 +1,3 @@
-
-
-
-
-
-
 # :beer: Punk-api beer SPA
 
 
