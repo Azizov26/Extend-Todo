@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+.app {
+   padding: 32px;
+   width: 1200px;
+   margin: 0 auto;
+   min-height: 70vh;
+
+   box-shadow: 0 0 10px rgb(0, 0, 0, 0.7);
+
+   font-family: 'Varela Round', sans-serif;
+
+   &__title {
+      margin: 30px auto;
+      width: 600px;
+      height: 85px;
+
+      color: cadetblue;
+      font-size: 80px;
+      text-align: center;
+
+      box-shadow: 0 0 10px rgba(0, 150, 100, 0.5);
+   }
+
+   &__progressBar {
+      width: 100%;
+      height: 24px;
+      margin-bottom: 20px;
+
+      box-shadow: 0 0 10px rgb(5, 100, 100, 0.5);
+      border: 1px solid cadetblue;
+      border-radius: 5px;
+
+      &__content {
+         background: cadetblue;
+         height: 100%;
+         transition: all 0.3s ease 0s;
+      }
+   }
+
+   &__content {
+      display: flex;
+      flex-direction: row;
+
+      &__item {
+         width: 60%;
+         margin-right: 36px;
+
+         &__task {
+            width: 100%;
+         }
+      }
+   }
+}

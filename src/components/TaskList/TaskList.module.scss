@@ -1,0 +1,14 @@
+.content {
+   border-radius: 1px solid;
+
+   &__categoryName {
+      margin-bottom: 20px;
+      padding: 5px 0;
+
+      font-size: 24px;
+      text-align: center;
+
+      border: 1px solid cadetblue;
+      border-radius: 5px;
+   }
+}

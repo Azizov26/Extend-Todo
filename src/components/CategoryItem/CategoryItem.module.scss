@@ -1,0 +1,35 @@
+.category {
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 12px;
+
+   border: 1px solid cadetblue;
+   border-radius: 3px;
+
+   &__title {
+      display: flex;
+      flex-direction: row;
+
+      color: darkslategray;
+      margin-right: 18px;
+      padding: 4px 12px;
+      width: 100%;
+      height: 100%;
+   }
+
+   &__button {
+      margin: 0 7px 0px auto;
+      border: none;
+      border-radius: 10%;
+      cursor: pointer;
+      background-color: inherit;
+
+      color: black;
+   }
+
+   &:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      cursor: pointer;
+      background-color: azure;
+   }
+}

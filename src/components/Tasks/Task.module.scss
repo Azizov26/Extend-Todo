@@ -1,0 +1,39 @@
+.content {
+   display: flex;
+   margin-bottom: 14px;
+
+   &__input {
+      width: 100%;
+      height: auto;
+      padding: 0 12px;
+      outline: none;
+
+      border-radius: 4px 0 0 4px;
+      border: 1px solid grey;
+   }
+
+   &__button {
+      width: 100px;
+      height: auto;
+      padding: 8px 16px;
+
+      background: cadetblue;
+      color: #fff;
+      appearance: none;
+      cursor: pointer;
+
+      border-radius: 0 4px 4px 0;
+      font-size: 16px;
+      border: none;
+
+      &:hover {
+         background: #1d49aa;
+      }
+
+      &:focus {
+         outline: none;
+         border-radius: 4px;
+         box-shadow: 0 0 0 4px #cbd6ee;
+      }
+   }
+}
