@@ -51,5 +51,5 @@ export const App = () => {
             </div>
          </div>
       </div>
-   );c
+   );
 };
